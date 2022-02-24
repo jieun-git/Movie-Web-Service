@@ -1,0 +1,25 @@
+import React, { useEffect, useState } from "react";
+import styles from "./Menu.module.css";
+import menuList from "./MenuList.js";
+import { Link } from "react-router-dom";
+
+function Menu() {
+  return (
+    <nav className={styles.menu}>
+      <div className={styles.title}>
+        <a href="/">MOVIE</a>
+      </div>
+      <ul className={styles.option_list}>
+        {menuList.map(({ title, path }) => {
+          return (
+            <li>
+              <Link to={`/page/${path}`}>{title}</Link>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+  );
+}
+
+export default Menu;
