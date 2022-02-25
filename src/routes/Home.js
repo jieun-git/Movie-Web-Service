@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import Movie from "../components/Movie";
-import styles from "./Home.module.css";
+import MovieList from "../components/MovieList";
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -22,32 +21,7 @@ function Home() {
     getMovies();
   }, []);
 
-  return (
-    <div className={styles.container}>
-      {loading ? (
-        <div className={styles.loader}>
-          <span>Loading...</span>
-        </div>
-      ) : (
-        <>
-          {/*<Menu className={styles.menus} />*/}
-          <div className={styles.movies}>
-            {movies.map((movie) => (
-              <Movie //App에서 Movie로 보내줄 애들
-                key={movie.id} //map() very important
-                id={movie.id} //for dynamic url, props로 movie에 넘겨 줘야 함.
-                year={movie.year}
-                mediumCoverImage={movie.medium_cover_image}
-                title={movie.title}
-                summary={movie.summary}
-                genres={movie.genres}
-              />
-            ))}
-          </div>
-        </>
-      )}
-    </div>
-  );
+  return <MovieList loading={loading} movies={movies} />;
 }
 
 export default Home;

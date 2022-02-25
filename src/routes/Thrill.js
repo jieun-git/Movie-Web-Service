@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 
 import MovieList from "../components/MovieList";
 
-function HighRating() {
+function Thrill() {
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
 
   const getMovies = async () => {
     const response = await fetch(
-      "https://yts.mx/api/v2/list_movies.json?minimum_rating=8.8&sort_by=year",
+      "https://yts.mx/api/v2/list_movies.json?&genre=thriller",
     ); //c->s syn
     const json = await response.json();
     console.log(json);
@@ -24,4 +24,4 @@ function HighRating() {
   return <MovieList loading={loading} movies={movies} />;
 }
 
-export default HighRating;
+export default Thrill;

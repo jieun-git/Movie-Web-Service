@@ -1,27 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import styles from "../routes/Home.module.css";
+import Movie from "./Movie";
 
-import Movie from "../components/Movie";
-import styles from "./Home.module.css";
-
-function Thriller() {
-  const [loading, setLoading] = useState(true);
-  const [movies, setMovies] = useState([]);
-
-  const getMovies = async () => {
-    const response = await fetch(
-      "https://yts.mx/api/v2/list_movies.json?&genre=thriller",
-    ); //c->s syn
-    const json = await response.json();
-    console.log(json);
-    setMovies(json.data.movies);
-    setLoading(false);
-  };
-  console.log(movies);
-
-  useEffect(() => {
-    getMovies();
-  }, []);
-
+function MovieList(props) {
+  const { loading, movies } = props;
   return (
     <div className={styles.container}>
       {loading ? (
@@ -50,4 +32,4 @@ function Thriller() {
   );
 }
 
-export default Thriller;
+export default MovieList;
