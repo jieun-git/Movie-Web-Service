@@ -4,6 +4,7 @@ import Movie from "./Movie";
 
 function MovieList(props) {
   const { loading, movies } = props;
+
   return (
     <div className={styles.container}>
       {loading ? (

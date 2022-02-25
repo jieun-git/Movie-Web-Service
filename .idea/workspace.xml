@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af137cbe-6507-47d7-87f4-d7b700df5472" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/components/MovieList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/GetMovie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Animation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/HighRating.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/HighRating.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Romance.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Romance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Thriller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Thrill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +50,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/routes" />
       <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/routes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,7 +79,7 @@
       <workItem from="1645683225629" duration="5057000" />
       <workItem from="1645743943957" duration="12743000" />
       <workItem from="1645766741938" duration="1011000" />
-      <workItem from="1645767766737" duration="2777000" />
+      <workItem from="1645767766737" duration="8394000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1645685645730</created>
@@ -131,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645768666429</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changes">
+      <created>1645771760149</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645771760149</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

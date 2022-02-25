@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-import menuList from "./MenuList.js";
+import { MENU_LIST } from "./constants.js";
 import styles from "./Menu.module.css";
 
 function Menu() {
@@ -12,7 +12,7 @@ function Menu() {
         <a href="/">NETFLIX</a>
       </div>
       <ul className={styles.option_list}>
-        {menuList.map(({ title, path }) => {
+        {MENU_LIST.map(({ title, path }) => {
           return (
             <li key={path}>
               <Link to={`/${path}`}>{title}</Link>
