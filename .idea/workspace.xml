@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="af137cbe-6507-47d7-87f4-d7b700df5472" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Animation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Detail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Detail.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/HighRating.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/HighRating.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Romance.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Romance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Thriller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Thriller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +82,7 @@
       <workItem from="1645683225629" duration="5057000" />
       <workItem from="1645743943957" duration="12743000" />
       <workItem from="1645766741938" duration="1011000" />
-      <workItem from="1645767766737" duration="475000" />
+      <workItem from="1645767766737" duration="706000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1645685645730</created>
@@ -107,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645766537410</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes">
+      <created>1645768272563</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645768272563</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

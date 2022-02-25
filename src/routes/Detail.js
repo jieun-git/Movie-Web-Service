@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import React, { useEffect, useState } from "react";
+
 import MovieDetail from "../components/MovieDetail";
 import styles from "./Home.module.css";
 

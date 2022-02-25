@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
+
 import Movie from "../components/Movie";
-//import Menu from "../components/Menu";
 import styles from "./Home.module.css";
 
 function Thriller() {

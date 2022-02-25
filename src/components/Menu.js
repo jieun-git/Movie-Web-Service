@@ -1,7 +1,9 @@
 import React from "react";
-import styles from "./Menu.module.css";
-import menuList from "./MenuList.js";
+
 import { Link } from "react-router-dom";
+
+import menuList from "./MenuList.js";
+import styles from "./Menu.module.css";
 
 function Menu() {
   return (

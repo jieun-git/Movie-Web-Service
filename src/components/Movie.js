@@ -1,5 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom"; //다른 페이지 이동
+
+import { Link } from "react-router-dom";
+
 import PropTypes from "prop-types";
 import styles from "./Movie.module.css";
 
