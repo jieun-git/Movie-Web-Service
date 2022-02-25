@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styles from "./Menu.module.css";
 import menuList from "./MenuList.js";
 import { Link } from "react-router-dom";
@@ -7,13 +7,13 @@ function Menu() {
   return (
     <nav className={styles.menu}>
       <div className={styles.title}>
-        <a href="/">MOVIE</a>
+        <a href="/">NETFLIX</a>
       </div>
       <ul className={styles.option_list}>
         {menuList.map(({ title, path }) => {
           return (
-            <li>
-              <Link to={`/page/${path}`}>{title}</Link>
+            <li key={path}>
+              <Link to={`/${path}`}>{title}</Link>
             </li>
           );
         })}

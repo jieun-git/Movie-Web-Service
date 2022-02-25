@@ -1,6 +1,6 @@
 .movie {
     background-color: white;
-    margin-top: 100px;
+    margin-top: 50px;
     font-weight: 300;
     padding: 20px;
     border-radius: 5px;
@@ -9,13 +9,10 @@
     grid-template-columns: minmax(150px, 1fr) 2fr;
     grid-gap: 20px;
     text-decoration: none;
-    /*color: inherit; */
     box-shadow: 5px 5px 15px gray;
 }
 
 .movie_image {
-    position: relative;
-    top: -50px;
     max-width: 150px;
     width: 100%;
     margin-right: 30px;
@@ -46,7 +43,7 @@
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 
 .movie_genres li, .movie_year {

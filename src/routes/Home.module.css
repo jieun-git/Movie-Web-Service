@@ -23,7 +23,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(400px, 1fr));
     grid-gap: 100px;
-    padding: 150px;
+    padding: 150px 300px;
 }
 
 

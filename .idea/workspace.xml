@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af137cbe-6507-47d7-87f4-d7b700df5472" name="Changes" comment="Changes" />
+    <list default="true" id="af137cbe-6507-47d7-87f4-d7b700df5472" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/routes/Animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/HighRating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Romance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Thrill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Thriller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Movie.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieDetail.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieDetail.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home.module.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,8 +56,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/routes" />
+      <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +82,8 @@
       <workItem from="1645139623341" duration="12403000" />
       <workItem from="1645399317459" duration="2762000" />
       <workItem from="1645577932219" duration="7047000" />
-      <workItem from="1645683225629" duration="2283000" />
+      <workItem from="1645683225629" duration="5057000" />
+      <workItem from="1645743943957" duration="12177000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1645685645730</created>

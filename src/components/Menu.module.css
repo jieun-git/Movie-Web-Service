@@ -17,8 +17,6 @@
 .menu ul li {
     list-style-type: none;
     display: inline;
-    /*outline: 1px dotted black;*/
-    /*margin-left: 10px;*/
     margin-right: 40px;
     font-size: 20px;
     font-weight: bold;

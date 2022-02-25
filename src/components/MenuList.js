@@ -3,7 +3,7 @@ import React from "react";
 const menuList = [
   {
     title: "High Rating",
-    path: "minimum_rating=8",
+    path: "minimum_rating=8.8",
   },
   {
     title: "Romance",
