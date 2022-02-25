@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Movie from "../components/Movie";
-//import Menu from "../components/Menu";
 import styles from "./Home.module.css";
 
 function Home() {
@@ -9,9 +8,7 @@ function Home() {
 
   const getMovies = async () => {
     const response = await fetch(
-      //"https://yts.mx/api/v2/list_movies.json?minimum_rating=8.8&sort_by=year",
       "https://yts.mx/api/v2/list_movies.json?&sort_by=year",
-      //"https://yts.mx/api/v2/list_movies.json?&sort_by=genre=romance",
     ); //c->s syn
     const json = await response.json();
     console.log(json);
