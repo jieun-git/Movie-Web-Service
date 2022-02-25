@@ -3,7 +3,7 @@ import Movie from "../components/Movie";
 //import Menu from "../components/Menu";
 import styles from "./Home.module.css";
 
-function Thrill() {
+function Thriller() {
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
 
@@ -50,4 +50,4 @@ function Thrill() {
   );
 }
 
-export default Thrill;
+export default Thriller;
