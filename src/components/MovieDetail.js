@@ -15,9 +15,15 @@ function MovieDetail({
 }) {
   return (
     <div className={styles.page}>
-      {<img className={styles.bgOriginal} src={backgroundImageOriginal} />}
+      {
+        <img
+          className={styles.bgOriginal}
+          src={backgroundImageOriginal}
+          alt=""
+        />
+      }
       <div className={styles.show}>
-        <img className={styles.mImage} src={mediumCoverImage} />
+        <img className={styles.mImage} src={mediumCoverImage} alt="" />
         <div className={styles.textbox}>
           <h1 className={styles.title}>
             <a href={url} target="_blank">
