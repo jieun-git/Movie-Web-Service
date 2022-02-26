@@ -1,4 +1,5 @@
 export const URL = {
+  New: "https://yts.mx/api/v2/list_movies.json?&sort_by=year",
   HighRating:
     "https://yts.mx/api/v2/list_movies.json?minimum_rating=8.8&sort_by=year",
   Romance: "https://yts.mx/api/v2/list_movies.json?&genre=romance",
@@ -7,6 +8,10 @@ export const URL = {
 };
 
 export const MENU_LIST = [
+  {
+    title: "",
+    path: "/",
+  },
   {
     title: "High Rating",
     path: "minimum_rating=8.8",

@@ -1,10 +1,8 @@
 import React from "react";
-import styles from "../routes/Home.module.css";
+import styles from "./MovieList.module.css";
 import Movie from "./Movie";
 
-function MovieList(props) {
-  const { loading, movies } = props;
-
+function MovieList({ loading, movies }) {
   return (
     <div className={styles.container}>
       {loading ? (

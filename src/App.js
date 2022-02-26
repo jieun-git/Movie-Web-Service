@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Menu from "./components/Menu";
 import Detail from "./routes/Detail";
-import Home from "./routes/Home";
 
 import GetMovie from "./routes/GetMovie";
 
@@ -15,7 +14,7 @@ function App() {
       <Menu />
       <Routes>
         <Route path="/movie/:id" element={<Detail />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<GetMovie type="New" />} />
         <Route
           path="/minimum_rating=8.8"
           element={<GetMovie type="HighRating" />}
