@@ -11,7 +11,6 @@ function MovieList({ loading, movies }) {
         </div>
       ) : (
         <>
-          {/*<Menu className={styles.menus} />*/}
           <div className={styles.movies}>
             {movies.map((movie) => (
               <Movie //App에서 Movie로 보내줄 애들

@@ -9,7 +9,7 @@ function Menu() {
   return (
     <nav className={styles.menu}>
       <div className={styles.title}>
-        <a href="/">NETFLIX</a>
+        <a href="/">MOVIE</a>
       </div>
       <ul className={styles.option_list}>
         {MENU_LIST.map(({ title, path }) => {
