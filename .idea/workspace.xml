@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af137cbe-6507-47d7-87f4-d7b700df5472" name="Changes" comment="Changes">
+    <list default="true" id="24828cce-a543-4daf-bbc1-ab92c45f4dee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/GetMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GetMovie.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="af137cbe-6507-47d7-87f4-d7b700df5472" name="Changes" comment="" />
+      <changelist id="" name="Changes" comment="" />
       <created>1644565402788</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -83,7 +78,7 @@
       <workItem from="1645767766737" duration="8506000" />
       <workItem from="1645869238757" duration="2634000" />
       <workItem from="1646176606112" duration="10179000" />
-      <workItem from="1646199509327" duration="2370000" />
+      <workItem from="1646199509327" duration="3117000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1645685645730</created>
@@ -155,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645870616873</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Changes">
+      <created>1646202447546</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1646202447547</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

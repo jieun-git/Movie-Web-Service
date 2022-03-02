@@ -15,28 +15,15 @@ function App() {
       <Menu />
       <Routes>
         <Route path="/movie/:id" element={<Detail />} />
-        {MENU_LIST.map(({ path }) => {
+        {MENU_LIST.map(({ path, type }) => {
           return (
             <Route
               key={path}
               path={path}
-              element={MENU_LIST.map(({ path, type }) => {
-                return <GetMovie key={path} type={type} />
-              })}
+              element={<GetMovie key={path} type={type} />}
             />
           )
         })}
-        {/*<Route path="/" element={<GetMovie type="New" />} />*/}
-        {/*<Route*/}
-        {/*  path="/minimum_rating=8.8"*/}
-        {/*  element={<GetMovie type="HighRating" />}*/}
-        {/*/>*/}
-        {/*<Route path="/genre=romance" element={<GetMovie type="Romance" />} />*/}
-        {/*<Route path="/genre=thriller" element={<GetMovie type="Thriller" />} />*/}
-        {/*<Route*/}
-        {/*  path="/genre=animation"*/}
-        {/*  element={<GetMovie type="Animation" />}*/}
-        {/*/>*/}
       </Routes>
     </Router>
   )
